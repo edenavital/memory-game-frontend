@@ -15,7 +15,7 @@ export const MenuScreen: FC<IMenuScreen> = () => {
   const onClickOption = (page: FRONTEND_ROUTES) => {
     navigate(page);
   };
-
+  console.log("proccess", process.env);
   return (
     <Wrapper withHeader>
       <Button>
