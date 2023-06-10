@@ -15,7 +15,7 @@ export const MenuScreen: FC<IMenuScreen> = () => {
   const onClickOption = (page: FRONTEND_ROUTES) => {
     navigate(page);
   };
-
+  console.log("test env from client", process.env.NODE_ENV);
   return (
     <Wrapper withHeader>
       <Button>
